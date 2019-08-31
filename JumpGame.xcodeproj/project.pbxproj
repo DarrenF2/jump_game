@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A83D8D64154A152834851DE /* Pods_JumpGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC8B0B391E526C615A158E0 /* Pods_JumpGameUITests.framework */; };
+		383841CD22EF605F00E6D458 /* clouds.sks in Resources */ = {isa = PBXBuildFile; fileRef = 383841CB22EF605F00E6D458 /* clouds.sks */; };
+		383841CE22EF605F00E6D458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383841CC22EF605F00E6D458 /* Assets.xcassets */; };
+		388B1B822297A21800EADA7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B1B812297A21800EADA7C /* AppDelegate.swift */; };
+		388B1B842297A21800EADA7C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 388B1B832297A21800EADA7C /* GameScene.sks */; };
+		388B1B862297A21800EADA7C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 388B1B852297A21800EADA7C /* Actions.sks */; };
+		388B1B882297A21800EADA7C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B1B872297A21800EADA7C /* GameScene.swift */; };
+		388B1B8A2297A21800EADA7C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B1B892297A21800EADA7C /* GameViewController.swift */; };
+		388B1B8D2297A21800EADA7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388B1B8B2297A21800EADA7C /* Main.storyboard */; };
+		388B1B922297A21A00EADA7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388B1B902297A21A00EADA7C /* LaunchScreen.storyboard */; };
+		388B1B9D2297A21B00EADA7C /* JumpGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B1B9C2297A21B00EADA7C /* JumpGameTests.swift */; };
+		388B1BA82297A21B00EADA7C /* JumpGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B1BA72297A21B00EADA7C /* JumpGameUITests.swift */; };
+		388B1BB6229932B900EADA7C /* random_func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B1BB5229932B800EADA7C /* random_func.swift */; };
+		388B1BB82299393200EADA7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388B1BB72299393200EADA7C /* Assets.xcassets */; };
+		38CF91982309E8B900CFABE3 /* duck.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 38CF91972309E8B800CFABE3 /* duck.atlas */; };
+		38CF91992309E8B900CFABE3 /* duck.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 38CF91972309E8B800CFABE3 /* duck.atlas */; };
+		38CF919A2309E8B900CFABE3 /* duck.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 38CF91972309E8B800CFABE3 /* duck.atlas */; };
+		38CF91AF230A036A00CFABE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CF91AE230A036A00CFABE3 /* GoogleService-Info.plist */; };
+		38CF91B0230A036A00CFABE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CF91AE230A036A00CFABE3 /* GoogleService-Info.plist */; };
+		38CF91B1230A036A00CFABE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CF91AE230A036A00CFABE3 /* GoogleService-Info.plist */; };
+		64FBB0FDE75545D4E96D39B1 /* Pods_JumpGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4403B468E3D626961CED0755 /* Pods_JumpGameTests.framework */; };
+		FDDD53BDA608CBCA1F31793B /* Pods_JumpGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06E121AEA4D94258105A401 /* Pods_JumpGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		388B1B992297A21B00EADA7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388B1B762297A21800EADA7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388B1B7D2297A21800EADA7C;
+			remoteInfo = JumpGame;
+		};
+		388B1BA42297A21B00EADA7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388B1B762297A21800EADA7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388B1B7D2297A21800EADA7C;
+			remoteInfo = JumpGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E8D87EC27F9B873E64A5C95 /* Pods-JumpGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpGame.release.xcconfig"; path = "Target Support Files/Pods-JumpGame/Pods-JumpGame.release.xcconfig"; sourceTree = "<group>"; };
+		2FC8B0B391E526C615A158E0 /* Pods_JumpGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumpGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		383841CB22EF605F00E6D458 /* clouds.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = clouds.sks; sourceTree = "<group>"; };
+		383841CC22EF605F00E6D458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388B1B7E2297A21800EADA7C /* JumpGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388B1B812297A21800EADA7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		388B1B832297A21800EADA7C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		388B1B852297A21800EADA7C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		388B1B872297A21800EADA7C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		388B1B892297A21800EADA7C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		388B1B8C2297A21800EADA7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		388B1B912297A21A00EADA7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		388B1B932297A21A00EADA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388B1B982297A21B00EADA7C /* JumpGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388B1B9C2297A21B00EADA7C /* JumpGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameTests.swift; sourceTree = "<group>"; };
+		388B1B9E2297A21B00EADA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388B1BA32297A21B00EADA7C /* JumpGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388B1BA72297A21B00EADA7C /* JumpGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameUITests.swift; sourceTree = "<group>"; };
+		388B1BA92297A21B00EADA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388B1BB5229932B800EADA7C /* random_func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = random_func.swift; sourceTree = "<group>"; };
+		388B1BB72299393200EADA7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38CF91972309E8B800CFABE3 /* duck.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = duck.atlas; path = ../duck.atlas; sourceTree = "<group>"; };
+		38CF91A02309FB4600CFABE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		38CF91AE230A036A00CFABE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4403B468E3D626961CED0755 /* Pods_JumpGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumpGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B22D8DE929CB06F535208C /* Pods-JumpGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpGame.debug.xcconfig"; path = "Target Support Files/Pods-JumpGame/Pods-JumpGame.debug.xcconfig"; sourceTree = "<group>"; };
+		95404852E02C58ED32363475 /* Pods-JumpGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpGameTests.release.xcconfig"; path = "Target Support Files/Pods-JumpGameTests/Pods-JumpGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		D06E121AEA4D94258105A401 /* Pods_JumpGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumpGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48439F6F6424DA355FB2C14 /* Pods-JumpGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpGameUITests.release.xcconfig"; path = "Target Support Files/Pods-JumpGameUITests/Pods-JumpGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC4F25315AC45AC648EFAEBF /* Pods-JumpGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-JumpGameUITests/Pods-JumpGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE8CF2414D7F0F0B9A17533 /* Pods-JumpGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpGameTests.debug.xcconfig"; path = "Target Support Files/Pods-JumpGameTests/Pods-JumpGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388B1B7B2297A21800EADA7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDD53BDA608CBCA1F31793B /* Pods_JumpGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388B1B952297A21B00EADA7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FBB0FDE75545D4E96D39B1 /* Pods_JumpGameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388B1BA02297A21B00EADA7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A83D8D64154A152834851DE /* Pods_JumpGameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388B1B752297A21800EADA7C = {
+			isa = PBXGroup;
+			children = (
+				38CF91AE230A036A00CFABE3 /* GoogleService-Info.plist */,
+				383841CB22EF605F00E6D458 /* clouds.sks */,
+				383841CC22EF605F00E6D458 /* Assets.xcassets */,
+				388B1B802297A21800EADA7C /* JumpGame */,
+				388B1B9B2297A21B00EADA7C /* JumpGameTests */,
+				388B1BA62297A21B00EADA7C /* JumpGameUITests */,
+				388B1B7F2297A21800EADA7C /* Products */,
+				38CF91972309E8B800CFABE3 /* duck.atlas */,
+				463F5D7E5E0C4842EB7D7AB1 /* Pods */,
+				B50ABC44EEA8AF75CF09C56C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		388B1B7F2297A21800EADA7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388B1B7E2297A21800EADA7C /* JumpGame.app */,
+				388B1B982297A21B00EADA7C /* JumpGameTests.xctest */,
+				388B1BA32297A21B00EADA7C /* JumpGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388B1B802297A21800EADA7C /* JumpGame */ = {
+			isa = PBXGroup;
+			children = (
+				388B1B812297A21800EADA7C /* AppDelegate.swift */,
+				388B1B832297A21800EADA7C /* GameScene.sks */,
+				388B1B852297A21800EADA7C /* Actions.sks */,
+				388B1B872297A21800EADA7C /* GameScene.swift */,
+				388B1BB72299393200EADA7C /* Assets.xcassets */,
+				388B1BB5229932B800EADA7C /* random_func.swift */,
+				388B1B892297A21800EADA7C /* GameViewController.swift */,
+				388B1B8B2297A21800EADA7C /* Main.storyboard */,
+				388B1B902297A21A00EADA7C /* LaunchScreen.storyboard */,
+				388B1B932297A21A00EADA7C /* Info.plist */,
+			);
+			path = JumpGame;
+			sourceTree = "<group>";
+		};
+		388B1B9B2297A21B00EADA7C /* JumpGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				388B1B9C2297A21B00EADA7C /* JumpGameTests.swift */,
+				388B1B9E2297A21B00EADA7C /* Info.plist */,
+			);
+			path = JumpGameTests;
+			sourceTree = "<group>";
+		};
+		388B1BA62297A21B00EADA7C /* JumpGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				388B1BA72297A21B00EADA7C /* JumpGameUITests.swift */,
+				388B1BA92297A21B00EADA7C /* Info.plist */,
+			);
+			path = JumpGameUITests;
+			sourceTree = "<group>";
+		};
+		463F5D7E5E0C4842EB7D7AB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57B22D8DE929CB06F535208C /* Pods-JumpGame.debug.xcconfig */,
+				2E8D87EC27F9B873E64A5C95 /* Pods-JumpGame.release.xcconfig */,
+				DCE8CF2414D7F0F0B9A17533 /* Pods-JumpGameTests.debug.xcconfig */,
+				95404852E02C58ED32363475 /* Pods-JumpGameTests.release.xcconfig */,
+				DC4F25315AC45AC648EFAEBF /* Pods-JumpGameUITests.debug.xcconfig */,
+				D48439F6F6424DA355FB2C14 /* Pods-JumpGameUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B50ABC44EEA8AF75CF09C56C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D06E121AEA4D94258105A401 /* Pods_JumpGame.framework */,
+				4403B468E3D626961CED0755 /* Pods_JumpGameTests.framework */,
+				2FC8B0B391E526C615A158E0 /* Pods_JumpGameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388B1B7D2297A21800EADA7C /* JumpGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388B1BAC2297A21B00EADA7C /* Build configuration list for PBXNativeTarget "JumpGame" */;
+			buildPhases = (
+				F35D4246A76C933CA3499168 /* [CP] Check Pods Manifest.lock */,
+				388B1B7A2297A21800EADA7C /* Sources */,
+				388B1B7B2297A21800EADA7C /* Frameworks */,
+				388B1B7C2297A21800EADA7C /* Resources */,
+				868863A7C31D6B9B43800DA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpGame;
+			productName = JumpGame;
+			productReference = 388B1B7E2297A21800EADA7C /* JumpGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		388B1B972297A21B00EADA7C /* JumpGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388B1BAF2297A21B00EADA7C /* Build configuration list for PBXNativeTarget "JumpGameTests" */;
+			buildPhases = (
+				B1BBB155643630BF9E03E0ED /* [CP] Check Pods Manifest.lock */,
+				388B1B942297A21B00EADA7C /* Sources */,
+				388B1B952297A21B00EADA7C /* Frameworks */,
+				388B1B962297A21B00EADA7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388B1B9A2297A21B00EADA7C /* PBXTargetDependency */,
+			);
+			name = JumpGameTests;
+			productName = JumpGameTests;
+			productReference = 388B1B982297A21B00EADA7C /* JumpGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		388B1BA22297A21B00EADA7C /* JumpGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388B1BB22297A21B00EADA7C /* Build configuration list for PBXNativeTarget "JumpGameUITests" */;
+			buildPhases = (
+				EE835C134ADEED60C535C624 /* [CP] Check Pods Manifest.lock */,
+				388B1B9F2297A21B00EADA7C /* Sources */,
+				388B1BA02297A21B00EADA7C /* Frameworks */,
+				388B1BA12297A21B00EADA7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388B1BA52297A21B00EADA7C /* PBXTargetDependency */,
+			);
+			name = JumpGameUITests;
+			productName = JumpGameUITests;
+			productReference = 388B1BA32297A21B00EADA7C /* JumpGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388B1B762297A21800EADA7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Darren Freeman";
+				TargetAttributes = {
+					388B1B7D2297A21800EADA7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					388B1B972297A21B00EADA7C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 388B1B7D2297A21800EADA7C;
+					};
+					388B1BA22297A21B00EADA7C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 388B1B7D2297A21800EADA7C;
+					};
+				};
+			};
+			buildConfigurationList = 388B1B792297A21800EADA7C /* Build configuration list for PBXProject "JumpGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388B1B752297A21800EADA7C;
+			productRefGroup = 388B1B7F2297A21800EADA7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388B1B7D2297A21800EADA7C /* JumpGame */,
+				388B1B972297A21B00EADA7C /* JumpGameTests */,
+				388B1BA22297A21B00EADA7C /* JumpGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388B1B7C2297A21800EADA7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1B8D2297A21800EADA7C /* Main.storyboard in Resources */,
+				38CF91982309E8B900CFABE3 /* duck.atlas in Resources */,
+				38CF91AF230A036A00CFABE3 /* GoogleService-Info.plist in Resources */,
+				388B1B842297A21800EADA7C /* GameScene.sks in Resources */,
+				383841CE22EF605F00E6D458 /* Assets.xcassets in Resources */,
+				383841CD22EF605F00E6D458 /* clouds.sks in Resources */,
+				388B1B922297A21A00EADA7C /* LaunchScreen.storyboard in Resources */,
+				388B1B862297A21800EADA7C /* Actions.sks in Resources */,
+				388B1BB82299393200EADA7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388B1B962297A21B00EADA7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CF91992309E8B900CFABE3 /* duck.atlas in Resources */,
+				38CF91B0230A036A00CFABE3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388B1BA12297A21B00EADA7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CF919A2309E8B900CFABE3 /* duck.atlas in Resources */,
+				38CF91B1230A036A00CFABE3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		868863A7C31D6B9B43800DA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumpGame/Pods-JumpGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumpGame/Pods-JumpGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JumpGame/Pods-JumpGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BBB155643630BF9E03E0ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumpGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE835C134ADEED60C535C624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumpGameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35D4246A76C933CA3499168 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumpGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388B1B7A2297A21800EADA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1BB6229932B900EADA7C /* random_func.swift in Sources */,
+				388B1B882297A21800EADA7C /* GameScene.swift in Sources */,
+				388B1B8A2297A21800EADA7C /* GameViewController.swift in Sources */,
+				388B1B822297A21800EADA7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388B1B942297A21B00EADA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1B9D2297A21B00EADA7C /* JumpGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388B1B9F2297A21B00EADA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B1BA82297A21B00EADA7C /* JumpGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388B1B9A2297A21B00EADA7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388B1B7D2297A21800EADA7C /* JumpGame */;
+			targetProxy = 388B1B992297A21B00EADA7C /* PBXContainerItemProxy */;
+		};
+		388B1BA52297A21B00EADA7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388B1B7D2297A21800EADA7C /* JumpGame */;
+			targetProxy = 388B1BA42297A21B00EADA7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		388B1B8B2297A21800EADA7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388B1B8C2297A21800EADA7C /* Base */,
+				38CF91A02309FB4600CFABE3 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		388B1B902297A21A00EADA7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388B1B912297A21A00EADA7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388B1BAA2297A21B00EADA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		388B1BAB2297A21B00EADA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388B1BAD2297A21B00EADA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B22D8DE929CB06F535208C /* Pods-JumpGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6WLUKYZ7;
+				INFOPLIST_FILE = JumpGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.JumpGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		388B1BAE2297A21B00EADA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8D87EC27F9B873E64A5C95 /* Pods-JumpGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6WLUKYZ7;
+				INFOPLIST_FILE = JumpGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.JumpGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		388B1BB02297A21B00EADA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE8CF2414D7F0F0B9A17533 /* Pods-JumpGameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6WLUKYZ7;
+				INFOPLIST_FILE = JumpGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.JumpGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpGame.app/JumpGame";
+			};
+			name = Debug;
+		};
+		388B1BB12297A21B00EADA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95404852E02C58ED32363475 /* Pods-JumpGameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6WLUKYZ7;
+				INFOPLIST_FILE = JumpGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.JumpGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpGame.app/JumpGame";
+			};
+			name = Release;
+		};
+		388B1BB32297A21B00EADA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4F25315AC45AC648EFAEBF /* Pods-JumpGameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6WLUKYZ7;
+				INFOPLIST_FILE = JumpGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.JumpGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumpGame;
+			};
+			name = Debug;
+		};
+		388B1BB42297A21B00EADA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48439F6F6424DA355FB2C14 /* Pods-JumpGameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6WLUKYZ7;
+				INFOPLIST_FILE = JumpGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.JumpGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumpGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388B1B792297A21800EADA7C /* Build configuration list for PBXProject "JumpGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388B1BAA2297A21B00EADA7C /* Debug */,
+				388B1BAB2297A21B00EADA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388B1BAC2297A21B00EADA7C /* Build configuration list for PBXNativeTarget "JumpGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388B1BAD2297A21B00EADA7C /* Debug */,
+				388B1BAE2297A21B00EADA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388B1BAF2297A21B00EADA7C /* Build configuration list for PBXNativeTarget "JumpGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388B1BB02297A21B00EADA7C /* Debug */,
+				388B1BB12297A21B00EADA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388B1BB22297A21B00EADA7C /* Build configuration list for PBXNativeTarget "JumpGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388B1BB32297A21B00EADA7C /* Debug */,
+				388B1BB42297A21B00EADA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388B1B762297A21800EADA7C /* Project object */;
+}
