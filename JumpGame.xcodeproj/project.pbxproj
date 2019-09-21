@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098559D82336B2D60065D759 /* jump_game in Resources */ = {isa = PBXBuildFile; fileRef = 098559D72336B2D60065D759 /* jump_game */; };
 		2A83D8D64154A152834851DE /* Pods_JumpGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC8B0B391E526C615A158E0 /* Pods_JumpGameUITests.framework */; };
 		383841CD22EF605F00E6D458 /* clouds.sks in Resources */ = {isa = PBXBuildFile; fileRef = 383841CB22EF605F00E6D458 /* clouds.sks */; };
 		383841CE22EF605F00E6D458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383841CC22EF605F00E6D458 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098559D72336B2D60065D759 /* jump_game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = jump_game; sourceTree = "<group>"; };
 		2E8D87EC27F9B873E64A5C95 /* Pods-JumpGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpGame.release.xcconfig"; path = "Target Support Files/Pods-JumpGame/Pods-JumpGame.release.xcconfig"; sourceTree = "<group>"; };
 		2FC8B0B391E526C615A158E0 /* Pods_JumpGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumpGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		383841CB22EF605F00E6D458 /* clouds.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = clouds.sks; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				388B1BA62297A21B00EADA7C /* JumpGameUITests */,
 				388B1B7F2297A21800EADA7C /* Products */,
 				38CF91972309E8B800CFABE3 /* duck.atlas */,
+				098559D72336B2D60065D759 /* jump_game */,
 				463F5D7E5E0C4842EB7D7AB1 /* Pods */,
 				B50ABC44EEA8AF75CF09C56C /* Frameworks */,
 			);
@@ -306,6 +309,7 @@
 				38CF91982309E8B900CFABE3 /* duck.atlas in Resources */,
 				38CF91AF230A036A00CFABE3 /* GoogleService-Info.plist in Resources */,
 				388B1B842297A21800EADA7C /* GameScene.sks in Resources */,
+				098559D82336B2D60065D759 /* jump_game in Resources */,
 				383841CE22EF605F00E6D458 /* Assets.xcassets in Resources */,
 				383841CD22EF605F00E6D458 /* clouds.sks in Resources */,
 				388B1B922297A21A00EADA7C /* LaunchScreen.storyboard in Resources */,
